@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/k-lianos/cucumber-docs.git"
   },
-  "author": "",
+  "author": "Konstantinos Lianos <konstantinos.lianos@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/k-lianos/cucumber-docs/issues"
@@ -14,6 +14,7 @@
   "homepage": "https://github.com/k-lianos/cucumber-docs#readme",
   "scripts": {
     "build": "tsc",
+    "cleanup": "rimraf dist",
     "format": "prettier --write \"{,src/**/}*.{md,json,ts}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +23,7 @@
     "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
     "typescript": "^4.1.3"
   }
 }
