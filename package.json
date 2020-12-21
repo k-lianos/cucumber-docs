@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/k-lianos/cucumber-docs.git"
   },
+  "engines": {
+    "node": "12.18.4"
+  },
   "author": "Konstantinos Lianos <konstantinos.lianos@gmail.com>",
   "license": "ISC",
   "bugs": {
