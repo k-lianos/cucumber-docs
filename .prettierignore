@@ -1,5 +1,6 @@
-node_modules
 dist
-package-lock.json
+node_modules
 .git
+package-lock.json
+.eslintcache
 
